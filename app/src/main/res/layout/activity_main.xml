@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/photo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/show_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Photo"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/photo_btn"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/list_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/show_btn"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/config_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Config"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/list_btn"
+        android:layout_alignParentBottom="true"/>
+    
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/one_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/two_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/one_btn" />
+
+    <Button
+        android:id="@+id/three_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/two_btn" />
+
+    <Button
+        android:id="@+id/four_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Four"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/three_btn" />
+
+    <Button
+        android:id="@+id/five_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Five"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/four_btn" />
+
+    <Button
+        android:id="@+id/six_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Six"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/five_btn" />
+
+
+    <Button
+        android:id="@+id/quick_link_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QuickLink"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/six_btn" />
+
+    <Button
+        android:id="@+id/shut_down_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Shut Down"/>
+
+</RelativeLayout>
